@@ -9,13 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <fragment
-            android:id="@+id/fragment"
-            android:name="com.android.training.fragments.BlankFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -31,7 +25,14 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:src="@drawable/ic_launcher_background"
-
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="fragmento 1"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
             />
     </LinearLayout>
 </FrameLayout>
